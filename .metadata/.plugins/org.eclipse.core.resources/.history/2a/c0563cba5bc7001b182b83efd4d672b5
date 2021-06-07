@@ -1,0 +1,10 @@
+package com.training.qn05;
+
+public class SumOfNumStrings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
