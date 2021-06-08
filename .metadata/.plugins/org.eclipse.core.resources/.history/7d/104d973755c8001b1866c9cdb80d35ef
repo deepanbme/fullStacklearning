@@ -1,0 +1,38 @@
+package com.training.qn15;
+
+import java.util.Arrays;
+
+import org.junit.Test;
+/**
+ * 
+ * @author Deepan
+ * Display unique characters in a string. input:"helloworld" output:"helowrd"
+ */
+public class UniqueChar 
+{
+	@Test
+	public void TestCase1()
+	{
+		String str = "helloworld";
+		String out = findUnqChar(str);
+		System.out.println(out);
+	}
+
+	public String findUnqChar(String str) 
+	{
+		String res = "";
+		int[] ascii = new int[127];
+		
+		for (char i : str.toCharArray()) 
+		{
+			ascii[i]++;
+//			System.out.println(i + 0);
+		}
+		
+		for (int i : ascii) 
+		{
+			System.out.println((char) i+'A');
+		}
+		return null;
+	}
+}
