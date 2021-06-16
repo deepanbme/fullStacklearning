@@ -1,0 +1,12 @@
+package com.training.inheritance;
+
+public class ICICIBank extends Bank
+{
+	int AccNo = 0;
+	String Acctype = "undefined";
+	
+	@Override
+	void display() {
+		System.out.println("ICIC Bank");
+	}
+}

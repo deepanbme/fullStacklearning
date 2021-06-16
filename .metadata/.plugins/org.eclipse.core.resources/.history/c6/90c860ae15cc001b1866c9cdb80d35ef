@@ -1,0 +1,10 @@
+package com.training.inheritance;
+
+public class AccessBanks 
+{
+	public static void main(String[] args) 
+	{
+		ICICIBank bank = (ICICIBank) new Bank();
+		System.out.println(bank.AccNo);
+	}
+}

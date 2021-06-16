@@ -1,0 +1,10 @@
+package com.training.qn19;
+
+public class FindDiffOfNaturalMain 
+{
+	public static void main(String[] args) 
+	{
+		CalculateSum obj = new CalculateSum();
+		System.out.println(obj.calculateSum(10));
+	}
+}

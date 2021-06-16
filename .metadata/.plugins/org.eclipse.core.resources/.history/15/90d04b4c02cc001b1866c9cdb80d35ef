@@ -1,0 +1,10 @@
+package com.training.OOPS;
+
+public class MainMethodConsChaining 
+{
+	public static void main(String[] args) 
+	{
+		ConstructorChaining con = new ConstructorChaining(100, "deepan", 100);
+		System.out.println(con);
+	}
+}

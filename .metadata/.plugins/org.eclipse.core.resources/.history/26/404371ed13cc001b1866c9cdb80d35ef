@@ -1,0 +1,12 @@
+package com.training.inheritance;
+
+public class Bank 
+{
+	int AccNo = 0;
+	String Acctype = "undefined";
+	
+	public void display()
+	{
+		System.out.println("reserve bank");
+	}
+}
